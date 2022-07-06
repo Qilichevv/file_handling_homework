@@ -11,6 +11,6 @@ def main(data:str):
         ans.append(int(i))
     return ans
 # Read data from file
-    f = open("txt_file/data01.txt")
-    data = f.read()
-    print(main(data))
+f = open("txt_file/data01.txt")
+data = f.read()
+print(main(data))
