@@ -9,7 +9,9 @@ def main(data:str):
     a = []
     b = 0
     while b < len(data):
-        if data[b].isalpha():
+        if data[b].isdigit():
+            pass
+        else:
             a.append(data[b])
         b +=1
     return a
