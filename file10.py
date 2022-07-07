@@ -6,7 +6,6 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    
     a=[]
     list1=data.split('\n')
     for i in list1:

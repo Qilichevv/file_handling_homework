@@ -6,13 +6,16 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    list1 = data.spilt()
-    list2 = []
-    for i in list1:
-        list2.append(len(i))
-    return list2
+ 
+    arr_1 = []
+    arr = data.split()
+    for i in arr:
+        l = len(i)
+        arr_1.append(l)
+    return arr_1
+
     
 # Read data from file
 f = open('txt_file/data06.txt')
-data= f.read()
+data = f.read()
 print(main(data))
